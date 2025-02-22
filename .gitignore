@@ -1,0 +1,14 @@
+# Flask specific ignores
+instance/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+env/
+venv/
+ENV/
+venv.bak/
+*.env
+*.flaskenv
+*.sqlite3
+.DS_Store
