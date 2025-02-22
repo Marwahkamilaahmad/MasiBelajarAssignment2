@@ -1,7 +1,9 @@
+import logging
 from flask import Blueprint, request
 from ..helpers import JsonResponses
 
 HumidityController = Blueprint('HumidityController', __name__)
+logger = logging.getLogger(__name__)
 
 @HumidityController.route('/iot/humidity', methods=["GET"])
 def humidity_get():
@@ -16,6 +18,7 @@ def humidity_get():
         )
     
     except Exception as e:
+        logger.error(f"humidity_get: {e}")
         return JsonResponses.error(
             message = "Gagal mendapatkan data dari database",
         )
@@ -48,6 +51,7 @@ def humidity_post():
         )
     
     except Exception as e:
+        logger.error(f"humidity_post: {e}")
         return JsonResponses.error(
             message = "Gagal menambahkan data ke database",
         )

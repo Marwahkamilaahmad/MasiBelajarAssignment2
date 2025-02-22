@@ -1,7 +1,9 @@
-from flask import Blueprint, request, jsonify
+import logging
+from flask import Blueprint, request
 from ..helpers import JsonResponses
 
 TemperatureController = Blueprint('TemperatureController', __name__)
+logger = logging.getLogger(__name__)
 
 @TemperatureController.route('/iot/temperature', methods=["GET"])
 def temperature_get():
@@ -16,6 +18,7 @@ def temperature_get():
         )
     
     except Exception as e:
+        logger.error(f"temperature_get: {e}")
         return JsonResponses.error(
             message = "Gagal mendapatkan data dari database",
         )
@@ -48,6 +51,7 @@ def temperature_post():
         )
     
     except Exception as e:
+        logger.error(f"temperature_post: {e}")
         return JsonResponses.error(
             message = "Gagal menambahkan data ke database",
         )
