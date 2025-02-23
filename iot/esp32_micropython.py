@@ -117,27 +117,31 @@ def push_to_ubidots(data):
     url = "http://industrial.api.ubidots.com/api/v1.6/devices/" + DEVICE_ID
     
     headers = {"Content-Type": "application/json", "X-Auth-Token": UBIDOTS_TOKEN}
+    
     try:
         response = requests.post(url, json=data, headers=headers)
     except Exception as e:
         print("Push To Ubidots Error", e)
     else:
         print("Data terkirim ke Ubidots!")
-        print("Response:", response.text)
+        print("[Ubidots] Response:", response.text)
         
 def push_to_server(data, route=""):
-    HOST = "http://172.21.212.222:8000"
+    HOST = "192.168.1.10:8000"
     url = "http://" + HOST + route
     
     headers = {"Content-Type": "application/json"}
     try:
+        print("URL:", url)
+        print("Headers:", headers)
+        print("Data:", data)
+        
         response = requests.post(url, json=data, headers=headers)
     except Exception as e:
         print("Push To Server Error", e)
-        raise e
     else:
         print("Data terkirim ke Server!")
-        print("Response:", response.text)
+        print("[Server] Response:", response.text)
     
 
 
@@ -191,3 +195,5 @@ while True:
 
     # Tunggu sebentar sebelum membaca lagi
     time.sleep(0.01)
+
+

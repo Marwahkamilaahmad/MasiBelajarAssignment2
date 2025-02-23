@@ -24,6 +24,12 @@ class JsonResponses:
             "message": message,
             "errors": errors
         }), 400
+    
+    @staticmethod
+    def not_found(message = "Data tidak ditemukan"):
+        return jsonify({
+            "message": message
+        }), 404
 
     @staticmethod
     def error(message, errors: dict = None):
