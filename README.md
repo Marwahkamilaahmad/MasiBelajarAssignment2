@@ -22,6 +22,9 @@ Dengan demikian, Anda siap untuk menjalankan server dengan lancar! 😊
 
 ## Galeri Masi Belajar
 
+### Ubidots
+<img src="data/images/ubidots/DashboardUbidots.png" alt="Full Rangkaian" width="600">
+
 ### IoT
 
 **Rangkaian Full:**  
