@@ -20,30 +20,28 @@ Ikuti langkah-langkah berikut untuk menjalankan server dengan benar:
 Dengan demikian, Anda siap untuk menjalankan server dengan lancar! 😊
 
 
-##Galeri Masi Belajar
+## Galeri Masi Belajar
 
+### IoT
 
-###IoT
-
-Rangkaian Full :
+**Rangkaian Full:**  
 <img src="data/images/iot/Rangkaian%20Full.png" alt="Full Rangkaian" width="400">
 
-Rangkaian Tampak Kanan :
-<img src="data/images/iot/Tampak%20Kanan.png" alt="Right Side Rangkaian" width="400">
+**Rangkaian Tampak Kanan:**  
+<img src="data/images/iot/Tampak%20Kanan.png" alt="Right Side Rangkaian" width="400">  
 <img src="data/images/iot/Tampak%20Kanan-1.png" alt="Right Side Rangkaian 1" width="400">
 
-Rangkaian Tampak Kiri :
+**Rangkaian Tampak Kiri:**  
 <img src="data/images/iot/Tampak%20Kiri.png" alt="Left Side Rangkaian" width="400">
 
-Rangkaian Tampak Atas :
+**Rangkaian Tampak Atas:**  
 <img src="data/images/iot/Top%20View%20Motherboard%20ESP32.png" alt="Top Side Rangkaian" width="400">
 
 ### Sensor
-DHT11 sensor :
+
+**DHT11 Sensor:**  
 <img src="data/images/iot/DHT11.png" alt="DHT11 Rangkaian" width="400">
 
-PIR sensor :
+**PIR Sensor:**  
 <img src="data/images/iot/PIR.png" alt="PIR Rangkaian" width="400">
-
-
 
