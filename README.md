@@ -26,24 +26,24 @@ Dengan demikian, Anda siap untuk menjalankan server dengan lancar! 😊
 ###IoT
 
 Rangkaian Full :
-![Full Rangkaian](data/images/iot/Rangkaian%20Full.png)
+<img src="data/images/iot/Rangkaian%20Full.png" alt="Full Rangkaian" width="400">
 
 Rangkaian Tampak Kanan :
-![Right Side Rangkaian](data/images/iot/Tampak%20Kanan.png)
-![Right Side Rangkaian](data/images/iot/Tampak%20Kanan-1.png)
+<img src="data/images/iot/Tampak%20Kanan.png" alt="Right Side Rangkaian" width="400">
+<img src="data/images/iot/Tampak%20Kanan-1.png" alt="Right Side Rangkaian 1" width="400">
 
 Rangkaian Tampak Kiri :
-![Left Side Rangkaian](data/images/iot/Tampak%20Kiri.png)
+<img src="data/images/iot/Tampak%20Kiri.png" alt="Left Side Rangkaian" width="400">
 
 Rangkaian Tampak Atas :
-![Top Side Rangkaian](data/images/iot/Top%20View%20Motherboard%20ESP32.png)
+<img src="data/images/iot/Top%20View%20Motherboard%20ESP32.png" alt="Top Side Rangkaian" width="400">
 
 ### Sensor
 DHT11 sensor :
-![DHT11 Sensor](data/images/iot/DHT11.png)
+<img src="data/images/iot/DHT11.png" alt="DHT11 Rangkaian" width="400">
 
 PIR sensor :
-![PIR Sensor](data/images/iot/PIR.png)
+<img src="data/images/iot/PIR.png" alt="PIR Rangkaian" width="400">
 
 
 
